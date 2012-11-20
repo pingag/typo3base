@@ -37,7 +37,7 @@ Vagrant::Config.run do |config|
   # config.vm.share_folder "v-data", "/vagrant_data", "../data"
   
   
-  config.vm.share_folder "wwwroot", "/var/www", "../wwwroot/", :owner => "www-data", :group => "www-data", :create => true
+  config.vm.share_folder "wwwroot", "/var/www", "../", :owner => "www-data", :group => "www-data", :create => true
   # config.vm.share_folder "mysql", "/var/lib/mysql", "../mysql", :owner => "mysql", :group => "mysql", :create => true
   
 
